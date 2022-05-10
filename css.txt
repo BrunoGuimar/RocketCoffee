@@ -1,0 +1,97 @@
+/* BASIC SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@300;400;500&family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+html, body{
+    height: 100%;
+    /*overflow: hidden;*/
+}
+/* BASIC SETUP */
+/* header */
+body header{
+    width: 80%;
+    margin: 40px auto 80px;
+}
+body header div#container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+body header div#container nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+body header div#container nav ul a{
+    text-decoration: none;
+    color: white;
+}
+body header div#container nav ul a:hover{
+    border-right: 2px solid var(--button);
+}
+body header div#container nav input{
+    border: 1px solid var(--button);
+    color: white;
+    background-color: var(--backgrond);
+    padding: 8px 40px 8px 40px;
+    border-radius: 8px;
+}
+/* header */
+
+/* Main */
+body{
+    background: var(--backgrond);
+    color: var(--text-color)
+}
+body main{
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+body main h1{
+    font-size: 70px;
+}
+body main h1:nth-child(2){
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    color: var(--backgrond);
+}
+/* Main */
+/* Background Images */
+
+body main img{
+    position: absolute;
+    width: 798.78px;
+    height: 506.47px;
+    left: 30%;
+    bottom: -58px;
+}
+body header > img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 500px;
+    height: 500px;
+}
+
+body footer > img{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 500px;
+    height: 500px; 
+}
+
+/* Background Images */

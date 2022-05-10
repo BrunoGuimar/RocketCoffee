@@ -1,0 +1,134 @@
+@media (max-width: 428px){
+    .mainimg{
+        position: absolute;
+        width: 428.00px;
+        height: 410.00px;
+        bottom: -80px;
+        left: 0px;
+    }
+    main h1{
+        font-size: 40px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    main h1:nth-child(2){
+        text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+        color: var(--backgrond);
+    }
+    .tittleMobile{
+        font-size: 30px;
+        margin: 50px 28px;
+        display: inline;
+        font-weight: 600;
+        line-height: 41px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    span.style{
+        color: var(--button);
+    }
+    .buttonMobile{
+        display: inline;
+        border: 1px solid var(--button);
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 8px 40px 8px 40px;
+        border-radius: 8px;
+        margin-bottom: 80px;
+    }
+    .buttonMobile:hover{
+        color: var(--button);
+        transition: all 0.2s ease;
+    }
+    div.logoDesktop{
+        background-image: url("");
+    }
+    div.menu-section nav{
+        display: none;
+    }
+    .one{
+        background-color: var(--button);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+    .two{
+        background-color: var(--button);
+        height: 5px;
+        width: 50%;
+        margin: 6px 0 6px auto;
+        transition-duration: 0.3s;
+    }
+    .iconMobile{
+        background-image: url("./imgs/logo-mobile.svg");
+        height: 33px;
+        width: 170px;
+        background-repeat: no-repeat;
+    }
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .menu-section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* menu fullscreen 
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .menu-section.on nav{
+        display: block;
+    }
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        background-color: var(--button);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+    .menu-section.on .menu-toggle .two{
+        transform: rotate(-45deg) translate(2px, -2px);
+    }
+    .menu-section.on nav input{
+        display: none;
+    }
+    .menu-section.on nav ul{
+        text-align: left;
+        display: block;
+    }
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 20px;
+        line-height: 15vh;
+        width: 100vw;
+    }
+    .menu-section.on nav ul a li{
+        border-top: 0.5px solid grey;
+        border-bottom: 0.5px solid grey;
+    }
+    */
+} 

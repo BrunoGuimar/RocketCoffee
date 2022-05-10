@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Coffe WEBSITE - RESPONSIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="img3" src="./imgs/blur-2.png" alt="topblur">
+        <div id="container">
+            <nav>
+                <a href="#"><img src="./imgs/logo-desktop.svg" alt="rocketlogo"></a>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>Menu</li></a>
+                    <a href="#"><li>Rewards</li></a>
+                    <a href="#"><li>Gift Cards</li></a>
+                    <a href="#"><li>Shops</li></a>
+                </ul>
+                <input type="button" value="TAKE MY COFFEE" cover="10">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Great Coffee</h1>
+        <h1>&lt;Great Coffee&#47;&gt;</h1>
+        <img class="img1" src="./imgs/rocket-coffee.png" alt="mainimg">
+    </main>
+    <footer><img class="img2" src="./imgs/blur-1.png" alt="bottomblur"></footer>
+<script src="script.js"></script>   
+</body>
+</html>

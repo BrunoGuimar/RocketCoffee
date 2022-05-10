@@ -1,0 +1,269 @@
+/* BASIC SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@300;400;500&family=Rubik+Glitch&family=Rubik+Wet+Paint&display=swap');
+*{
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+/* BASIC SETUP */
+/* header */
+header{
+    box-sizing: border-box;
+    width: 80%;
+    margin: 40px auto;
+}
+div.logoDesktop{
+    background-image: url("./imgs/logo-desktop.svg");
+    width: 44px;
+    height: 50px; 
+}
+div.menu-section nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+nav ul a:hover{
+    border-right: 2px solid var(--button);
+}
+nav input{
+    border: 1px solid var(--button);
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 8px 40px 8px 40px;
+    border-radius: 8px;
+    z-index: 10;
+}
+nav input:hover{
+    color: var(--button);
+    transition: all 0.2s ease;
+}
+/* header */
+
+/* Main */
+body{
+    background: var(--backgrond);
+    color: var(--text-color);
+}
+main{
+    width: 80%;
+    height: 100%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+main h1{
+    font-size: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main h1:nth-child(2){
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+    color: var(--backgrond);
+    margin-bottom: 0px;
+}
+
+/* MAIN MOBILE */
+.tittleMobile{
+    font-size: 30px;
+    margin: 20px 28px;
+    display: none;
+}
+.buttonMobile{
+    display: none;
+    border: 1px solid var(--button);
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 8px 40px 8px 40px;
+    border-radius: 8px;
+    z-index: 10;
+}
+.buttonMobile:hover{
+    color: var(--button);
+    transition: all 0.2s ease;
+}
+/* MAIN MOBILE */
+/* Main */
+/* Background Images */
+
+.mainimg{
+    margin-top: 290px;
+}
+.rightblur{
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    right: 0px;
+    top: -63px;
+    background: #996DFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: blur(400px);
+}
+.bottomblur{
+    position: absolute;
+    width: 321px;
+    height: 321px;
+    left: 0px;
+    bottom: 0px;
+    background: #996DFF;
+    filter: blur(400px);
+}
+
+/* Background Images */
+
+@media (max-width: 428px){
+    .mainimg{
+        position: absolute;
+        width: 428.00px;
+        height: 410.00px;
+        bottom: -80px;
+        left: 0px;
+        z-index: 1;
+    }
+    main h1{
+        font-size: 30px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 10;
+    }
+    main h1:nth-child(2){
+        text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+        color: var(--backgrond);
+    }
+    .tittleMobile{
+        font-size: 30px;
+        margin: 80px 28px;
+        display: block;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    span.style{
+        color: var(--button);
+    }
+    .buttonMobile{
+        display: inline;
+        border: 1px solid var(--button);
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 8px 40px 8px 40px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+    .buttonMobile:hover{
+        color: var(--button);
+        transition: all 0.2s ease;
+    }
+    div.logoDesktop{
+        background-image: url("");
+    }
+    div.menu-section nav{
+        display: none;
+    }
+    .one{
+        background-color: var(--button);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+    .two{
+        background-color: var(--button);
+        height: 5px;
+        width: 50%;
+        margin: 6px 0 6px auto;
+        transition-duration: 0.3s;
+    }
+    .iconMobile{
+        background-image: url("./imgs/logo-mobile.svg");
+        height: 33px;
+        width: 170px;
+        background-repeat: no-repeat;
+    }
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .menu-section{
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* menu fullscreen 
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .menu-section.on nav{
+        display: block;
+    }
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 0;
+        top: 15px;
+    }
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        background-color: var(--button);
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+    }
+    .menu-section.on .menu-toggle .two{
+        transform: rotate(-45deg) translate(2px, -2px);
+    }
+    .menu-section.on nav input{
+        display: none;
+    }
+    .menu-section.on nav ul{
+        text-align: left;
+        display: block;
+    }
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 20px;
+        line-height: 15vh;
+        width: 100vw;
+    }
+    .menu-section.on nav ul a li{
+        border-top: 0.5px solid grey;
+        border-bottom: 0.5px solid grey;
+    }
+    */
+} 
