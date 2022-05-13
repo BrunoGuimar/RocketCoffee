@@ -119,6 +119,7 @@ main h1:nth-child(2){
     border: 1px solid #000000;
     box-sizing: border-box;
     filter: blur(400px);
+    z-index: -1;
 }
 .bottomblur{
     position: absolute;
@@ -235,6 +236,7 @@ main h1:nth-child(2){
         position: absolute;
         right: 0;
         top: 35px;
+        z-index: 10;
     }
     .menu-section.on .menu-toggle .one{
         transform: rotate(45deg) translate(7px, 7px);
