@@ -1,4 +1,4 @@
-This is a responsive project trainig from Rocketseat, using CSS and HTML.<br>
+This is a responsive project trainig from Rocketseat, using CSS, HTML and JAVASCRIPT.<br>
 <p> PC 1920x1080 VIEW </p>
 <img src="gitimgpc.png"> </img>
 <br>
